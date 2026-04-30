@@ -1,0 +1,129 @@
+<resources>
+    <!-- Nama Aplikasi Sesuai Instruksi Soal -->
+    <string name="app_name">Seminar Registration App</string>
+
+    <string name="login_hero_title">Masuk dan Daftar Seminar</string>
+    <string name="login_hero_subtitle">Platform Pendaftaran Seminar Terpadu</string>
+
+    <string name="login_title">Login Akun</string>
+    <string name="register_title">Buat Akun Baru</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Konfirmasi Password</string>
+    <string name="login_button">Masuk</string>
+    <string name="register_button">Daftar</string>
+    <string name="move_to_register">Belum memiliki akun? Daftar</string>
+    <string name="move_to_login">Sudah punya akun? Login</string>
+    <string name="demo_login_info">Demo login: username=mahasiswa, password=12345</string>
+
+    <!-- Home Fragment -->
+    <string name="home_title">Selamat Datang!</string>
+    <string name="home_dashboard_title">Dashboard Seminar</string>
+    <string name="home_dashboard_subtitle">Ringkasan aktivitas pendaftaran Anda</string>
+    <string name="welcome_home">Halo, %1$s</string>
+    <string name="guest_user">Tamu</string>
+    <string name="home_subtitle">Kelola pendaftaran seminar Anda dengan mudah dan cepat.</string>
+    <string name="home_available_title">Seminar Tersedia</string>
+    <string name="home_available_desc">Pilih dari 5 seminar menarik yang dirancang untuk pengembangan skill mahasiswa di era digital.</string>
+    <string name="home_info_title">Siap Mendaftar?</string>
+    <string name="home_info_desc">Pilih seminar yang Anda minati dan dapatkan sertifikat internasional untuk portofolio Anda.</string>
+    <string name="cta_register_seminar">Mulai Pendaftaran</string>
+    <string name="home_feature_title">Keunggulan Aplikasi</string>
+    <string name="home_feature_easy_title">Pendaftaran Instant</string>
+    <string name="home_feature_easy_desc">Proses pendaftaran kurang dari 3 menit.</string>
+    <string name="home_feature_quality_title">Pembicara Ahli</string>
+    <string name="home_feature_quality_desc">Dibawakan oleh praktisi industri berpengalaman.</string>
+    <string name="home_feature_network_title">E-Sertifikat Resmi</string>
+    <string name="home_feature_network_desc">Sertifikat dapat digunakan untuk pendamping ijazah.</string>
+    <string name="home_feature_index_1">1</string>
+    <string name="home_feature_index_2">2</string>
+    <string name="home_feature_index_3">3</string>
+    <string name="home_stat_seminar_total">Seminar</string>
+    <string name="home_stat_seminar_label">5 Pilihan Aktif</string>
+    <string name="home_stat_step_total">E-Sertifikat</string>
+    <string name="home_stat_step_label">Resmi &amp; Terverifikasi</string>
+
+    <!-- Form Fragment -->
+    <string name="form_title">Pendaftaran Seminar</string>
+    <string name="form_subtitle">Silakan isi data diri Anda dengan lengkap dan benar.</string>
+    <string name="form_section_identity">Data Personal</string>
+    <string name="form_section_preference">Topik Seminar</string>
+    <string name="form_section_confirmation">Pernyataan</string>
+    <string name="label_name">Nama Lengkap</string>
+    <string name="label_email">Email Mahasiswa</string>
+    <string name="label_phone">WhatsApp / Telepon</string>
+    <string name="label_gender">Jenis Kelamin</string>
+    <string name="label_seminar">Pilih Topik Seminar</string>
+    <string name="label_agreement">Saya menyetujui data yang diinput benar</string>
+    <string name="gender_male">Laki-laki</string>
+    <string name="gender_female">Perempuan</string>
+    <string name="submit_button">Kirim Pendaftaran</string>
+
+    <!-- Validation Errors -->
+    <string name="error_empty_login">Username dan password wajib diisi</string>
+    <string name="error_field_required">Field ini wajib diisi</string>
+    <string name="error_login_invalid">Username atau password salah</string>
+    <string name="error_username_short">Minimal 4 karakter</string>
+    <string name="error_password_short">Minimal 4 karakter</string>
+    <string name="error_password_not_match">Password tidak cocok</string>
+    <string name="error_user_exists">Username sudah digunakan</string>
+    <string name="register_success">Akun berhasil dibuat!</string>
+    <string name="error_form_incomplete">Lengkapi semua data</string>
+    <string name="error_name_required">Nama wajib diisi</string>
+    <string name="error_email_required">Email wajib diisi</string>
+    <string name="error_email_invalid">Format email salah (@)</string>
+    <string name="error_phone_required">Nomor HP wajib diisi</string>
+    <string name="error_phone_invalid">Gunakan format 08 (10-13 digit)</string>
+    <string name="error_gender_required">Pilih jenis kelamin</string>
+    <string name="error_seminar_required">Pilih salah satu seminar</string>
+    <string name="error_agreement_required">Centang persetujuan data</string>
+
+    <!-- Confirmation Dialog -->
+    <string name="confirm_title">Konfirmasi Data</string>
+    <string name="confirm_message">Apakah data yang Anda isi sudah benar?</string>
+    <string name="confirm_yes">Ya, Benar</string>
+    <string name="confirm_no">Cek Kembali</string>
+
+    <!-- Logout Confirmation -->
+    <string name="logout_confirm_title">Konfirmasi Keluar</string>
+    <string name="logout_confirm_message">Apakah Anda yakin ingin keluar dari aplikasi?</string>
+    <string name="logout_confirm_yes">Ya, Keluar</string>
+    <string name="logout_confirm_no">Batal</string>
+
+    <!-- Result Fragment -->
+    <string name="result_title">Status Pendaftaran</string>
+    <string name="registration_success">Pendaftaran Berhasil!</string>
+    <string name="result_empty">Belum Ada Riwayat</string>
+    <string name="result_success_desc">Tiket seminar Anda telah diterbitkan.</string>
+    <string name="result_empty_desc">Silakan lakukan pendaftaran pada menu Daftar.</string>
+    <string name="result_name">Nama</string>
+    <string name="result_email">Email</string>
+    <string name="result_phone">Telepon</string>
+    <string name="result_gender">Gender</string>
+    <string name="result_seminar">Topik</string>
+    <string name="back_to_home">Kembali ke Beranda</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Beranda</string>
+    <string name="nav_register">Daftar</string>
+    <string name="nav_result">Hasil</string>
+
+    <string name="logout_button">Logout</string>
+    <string name="logout_success">Anda telah keluar</string>
+
+    <string name="seminar_placeholder">-- Klik untuk Pilih Seminar --</string>
+    <string name="seminar_android_modern">Android Development Modern</string>
+    <string name="seminar_ai">Artificial Intelligence for Student</string>
+    <string name="seminar_uiux">UI/UX Design Masterclass</string>
+    <string name="seminar_public_speaking">Public Speaking Workshop</string>
+    <string name="seminar_career">Career Path &amp; Personal Branding</string>
+
+    <string-array name="seminar_options">
+        <item>@string/seminar_placeholder</item>
+        <item>@string/seminar_android_modern</item>
+        <item>@string/seminar_ai</item>
+        <item>@string/seminar_uiux</item>
+        <item>@string/seminar_public_speaking</item>
+        <item>@string/seminar_career</item>
+    </string-array>
+</resources>

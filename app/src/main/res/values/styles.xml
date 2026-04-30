@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="UTSWidgetCardSurface">
+        <item name="cardBackgroundColor">@color/surfaceCard</item>
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeColor">@color/divider</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="UTSWidgetTextInputOutlined" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/overlay_light</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="boxStrokeColor">@color/divider</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="hintTextColor">@color/textSecondary</item>
+    </style>
+
+    <style name="UTSWidgetButtonPrimary" parent="Widget.Material3.Button">
+        <item name="android:layout_height">52dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="backgroundTint">@color/accent_blue</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="UTSTextTitleLarge">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="UTSTextTitleMedium">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="UTSTextBody">
+        <item name="android:textColor">@color/textSecondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="UTSTextCaption">
+        <item name="android:textColor">@color/textSecondary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>
+
+
+
+
+

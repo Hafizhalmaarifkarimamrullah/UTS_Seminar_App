@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#1E293B</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="secondary">#3B82F6</color>
+    <color name="secondary_light">#93C5FD</color>
+    <color name="background">#F8FAFC</color> <!-- Softer background -->
+    <color name="surfaceCard">#FFFFFFFF</color>
+    <color name="textPrimary">#0F172A</color>
+    <color name="textSecondary">#64748B</color>
+    <color name="heroCard">#1E293B</color>
+    <color name="heroStroke">#334155</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradStart">#1E293B</color>
+    <color name="gradEnd">#334155</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_blue">#3B82F6</color>
+    <color name="accent_blue_light">#DBEAFE</color>
+    <color name="accent_purple">#8B5CF6</color>
+    <color name="accent_purple_light">#EDE9FE</color>
+
+    <color name="success">#10B981</color>
+    <color name="error">#EF4444</color>
+    <color name="warning">#F59E0B</color>
+    <color name="divider">#E2E8F0</color>
+    <color name="overlay_light">#F1F5F9</color>
+
+    <!-- Hero Decorative -->
+    <color name="white_opacity_10">#1AFFFFFF</color>
+    <color name="white_opacity_20">#33FFFFFF</color>
+</resources>

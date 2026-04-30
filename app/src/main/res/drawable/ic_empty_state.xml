@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Outer Card/Ticket Shape -->
+    <path
+        android:fillColor="#1A1E293B"
+        android:pathData="M16,26h88a8,8 0 0 1 8,8v52a8,8 0 0 1 -8,8H16a8,8 0 0 1 -8,-8V34a8,8 0 0 1 8,-8z"
+        android:strokeColor="@color/primary"
+        android:strokeWidth="3" />
+
+    <!-- Line Detail 1 -->
+    <path
+        android:pathData="M24,44h72"
+        android:strokeColor="@color/primary"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:alpha="0.4" />
+
+    <!-- Line Detail 2 -->
+    <path
+        android:pathData="M24,60h52"
+        android:strokeColor="@color/primary"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:alpha="0.4" />
+
+    <!-- Checkmark Icon representing 'Status' -->
+    <path
+        android:pathData="M80,75l10,10 20,-20"
+        android:strokeColor="@color/secondary"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>
