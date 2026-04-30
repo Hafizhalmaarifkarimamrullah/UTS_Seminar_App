@@ -1,5 +1,7 @@
 # UTS - Login/Register + Pendaftaran Seminar Mahasiswa
 
+link video : https://youtu.be/V-aar7haPUE
+
 Aplikasi Android modern untuk manajemen pendaftaran seminar mahasiswa dengan alur:
 
 1. **Login / Register** → Autentikasi user (data hardcode)
